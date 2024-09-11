@@ -1,5 +1,12 @@
+/* Colors 
+Purple: #450084
+Gold: #CBB677
+https://www.jmu.edu/identity/our-style/color.shtml
+*/
+
+
 .navbar {
-    background-color: grey;
+    background-color: #450084;
     font-size: 20px;
   }
 
@@ -10,18 +17,29 @@
 }
 
 .nav-link:hover {
-    color: black;
+    color: #CBB677;
 }
-
 
 .section {
     height: 100vh;
+    display: flex;
+    align-items: center; 
 }
 
 .section1 {
-    background-color: rgb(30, 113, 187);
+    background: url("../images/jmu background.jpg") center center;
+    background-size: cover;
+    position: relative;
+
 }
+
 
 .section2 {
     background-color: rgb(0, 0, 0);
+}
+
+.landingh1 {
+    color: white;
+    font-size: 100px;
+
 }
