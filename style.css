@@ -27,13 +27,25 @@ https://www.jmu.edu/identity/our-style/color.shtml
     align-items: center; 
 }
 
-.section1 {
-    background: url("../images/jmu background.jpg") center center;
+
+
+#parallax {
+    /* The image used */
+    background-image: url("images/jmu\ background.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-
-}
-
+  
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
 
 .section2 {
     background-color: white;
