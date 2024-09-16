@@ -46,7 +46,9 @@ https://www.jmu.edu/identity/our-style/color.shtml
     margin-right: -10px;
   }
   
-
+.imgLogo {
+    align-items: center;
+}
 .section2 {
     background-color: white;
 }
@@ -78,5 +80,4 @@ https://www.jmu.edu/identity/our-style/color.shtml
     background-color: #450084;
     color: white;
 }
-
 
