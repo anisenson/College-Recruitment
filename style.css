@@ -22,7 +22,7 @@ https://www.jmu.edu/identity/our-style/color.shtml
 
 
 .section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center; 
 }
@@ -58,6 +58,10 @@ https://www.jmu.edu/identity/our-style/color.shtml
     background-color: #CBB677;
 }
 
+.section5 {
+    background-color: #D6D6D6;
+}
+
 .landingh1 {
     color: white;
     font-size: 100px;
@@ -80,4 +84,19 @@ https://www.jmu.edu/identity/our-style/color.shtml
     background-color: #450084;
     color: white;
 }
+
+.h2Academics {
+
+    color: #450084;
+    font-size: xx-large;
+}
+
+.img-academics {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.studentIMG {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}  
+
 
