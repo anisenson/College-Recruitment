@@ -31,7 +31,7 @@ https://www.jmu.edu/identity/our-style/color.shtml
 
 #parallax {    
     background-image: url("images/jmu\ background.jpg");
-    min-height: 800px;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,11 +52,11 @@ https://www.jmu.edu/identity/our-style/color.shtml
 
 
 .section3 {
-    background-color: #CBB677;
+    background-color: #D6D6D6;
 }
 
 .section5 {
-    background-color: #D6D6D6;
+    background-color: white;
 }
 
 .landingh1 {
