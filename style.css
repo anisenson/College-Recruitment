@@ -97,3 +97,42 @@ https://www.jmu.edu/identity/our-style/color.shtml
 }
 
 
+
+/* search bar
+
+Original code: https://www.w3schools.com/howto/howto_js_search_menu.asp
+
+*/
+#mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.scrollable-majors {
+    max-height: 200px; 
+    overflow-y: auto;
+    border: 1px solid #ddd; 
+    padding: 10px;
+}
+
+.major {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.major a {
+    text-decoration: none;
+    color: black;
+}
+
+.major:hover {
+    background-color: #eee;
+}
+
+.major:last-child {
+    border-bottom: none;
+}
