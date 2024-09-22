@@ -4,7 +4,7 @@ Gold: #CBB677
 https://www.jmu.edu/identity/our-style/color.shtml
 */
 
-
+/*navbar */
 .navbar {
     background-color: #450084;
     font-size: 20px;
@@ -20,62 +20,14 @@ https://www.jmu.edu/identity/our-style/color.shtml
     color: #CBB677;
 }
 
-
+/*Sections */
 .section {
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
-
-#parallax {
-    position: relative; 
-    background-image: url("images/jmu background.jpg");
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -10px;
-    margin-right: -10px;
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    text-align: center; 
-}
-
-#parallax:before {
-    content: ""; /* overlay */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); 
-    z-index: 1; /* Behind the text */
-}
-
-#parallax h1 {
-    color: white; 
-    font-size: 3em; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
-    position: relative; 
-    z-index: 2; 
-}
-
-@media (min-width: 768px) {
-    #parallax h1 {
-        font-size: 5em; 
-    }
-}
-
-
-
-.imgLogo {
-    align-items: center;
-}
-
-.section2 {
+.section2 .section4 {
     background-color: white;
 }
 
@@ -88,11 +40,65 @@ https://www.jmu.edu/identity/our-style/color.shtml
     background-color: #D6D6D6;
 }
 
+/* Landing Page*/
+
 .landingh1 {
     color: white;
     font-size: 100px;
 
 }
+
+
+#parallax {
+    position: relative;
+    background-image: url("images/jmu background.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#parallax:before {
+    content: "";
+    /* overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    /* Behind the text */
+}
+
+#parallax h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    #parallax h1 {
+        font-size: 5em;
+    }
+}
+
+
+
+.imgLogo {
+    align-items: center;
+}
+
+
 
 a {
     color: #450084;
@@ -179,4 +185,3 @@ Original code: https://www.w3schools.com/howto/howto_js_search_menu.asp
     transform: scale(1.05);
     transition: .5s ease;
 }
-
