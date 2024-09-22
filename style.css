@@ -65,7 +65,9 @@ https://www.jmu.edu/identity/our-style/color.shtml
 
 }
 
-
+a {
+    color: #450084;
+}
 .card {
     height: 100%;
 }
@@ -112,7 +114,7 @@ Original code: https://www.w3schools.com/howto/howto_js_search_menu.asp
 }
 
 .scrollable-majors {
-    max-height: 200px; 
+    max-height: 300px; 
     overflow-y: auto;
     border: 1px solid #ddd; 
     padding: 10px;
