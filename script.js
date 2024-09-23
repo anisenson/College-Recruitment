@@ -4,21 +4,21 @@ const teamMembers = [
         accomplishments: 'Played in Super Bowl XXV, NFL All-Pro.',
         career: 'Former NFL placekicker for the Buffalo Bills.',
         years: '1978-1982',
-        img: '/images/jmu-alumni-1.jpg'
+        img: 'images/jmu-alumni-1.jpg'
     },
     {
         name: 'Phil Vassar',
         accomplishments: 'Chart-topping country music artist; multiple No. 1 songs.',
         career: 'Country music singer-songwriter.',
         years: 'Mid-1980s',
-        img: '/images/jmu-alumni-2.jpg'
+        img: 'images/jmu-alumni-2.jpg'
     },
     {
         name: 'Tamera Young',
         accomplishments: 'JMU’s all-time leading scorer in women’s basketball; WNBA star.',
         career: 'Former WNBA player (Atlanta Dream, Chicago Sky).',
         years: '2004-2008',
-        img: '/images/jmu-alumni-3.jpg'
+        img: 'images/jmu-alumni-3.jpg'
     },
 
     {
@@ -26,7 +26,7 @@ const teamMembers = [
         accomplishments: 'NFL linebacker with 10+ years of professional experience.',
         career: 'Played for the Philadelphia Eagles and Kansas City Chiefs.',
         years: '2003-2007',
-        img: '/images/jmu-alumni-4.jpg'
+        img: 'images/jmu-alumni-4.jpg'
     },
 
 ]
